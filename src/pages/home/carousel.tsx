@@ -16,10 +16,17 @@ const CarouselContainer = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right 35% bottom 0%;
-    height: 780px;
+    min-height: 780px;
 
+    @media ${device.tabletL} {
+        min-height: 600px;
+    }
+    @media ${device.tabletL} {
+        min-height: 450px;
+    }
     @media ${device.tabletS} {
         background-image: none;
+        min-height: 335px;
     }
 `
 
