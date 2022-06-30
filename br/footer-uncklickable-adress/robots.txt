@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow:
+Sitemap: https://sinbad.dev/sinbad/br/footer-uncklickable-adress/sitemap/sitemap-index.xml
+Host: https://sinbad.dev
